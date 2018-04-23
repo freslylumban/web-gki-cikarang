@@ -1,0 +1,117 @@
+/* BARIS LOGO & NAVIGASI */
+/* LOGO */
+.logo img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+/* NAVIGASI */
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:hover {
+    color: red;
+}
+
+.dropdown-menu {
+    background-color: white;
+    border: 0;
+}
+.dropdown-menu>li>a:hover {
+    background-color: deepskyblue;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: red;
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: blue;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: blue;
+}
+.navbar-collapse.in {
+    background-color: white;
+}
+
+#mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, .1);
+    background-color: #fff;
+}
+
+@media (max-width: 767px)
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: black;
+}
+
+
+/* BARIS CAROUSEL */
+
+
+/* BARIS THUMBNAIL MEDIA OBJECT UKURAN 70x70 */
+.bbm1 {
+    margin: 15px 0;
+}
+.bbm2 {
+    min-height: 200px;
+}
+
+/* BARIS VIDEO TAMPILAN */
+.videotampilan {
+    background-color: grey;
+}
+
+/* BARIS FOOTER */
+footer {
+    margin-top: 10px;
+    background-color: black;
+}
+.footer-top {
+    background-color: rgb(48, 41, 41);
+}
+/* BARIS FOOTER ATAS */
+#footeratas {
+}
+
+.footerbatas {
+    color: white;
+    min-height: 300px;
+}
+
+.page-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.videogkicikarang {
+    width: 100%;
+    frameborder: 0;
+}
+
+.mapscikarang {
+    width: 100%;
+    frameborder: 0;
+    border: 0;
+}
+
+/* BARIS FOOTER BAWAH */
+#footerbawah {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
