@@ -1,11 +1,17 @@
+/* BODY TOTAL */
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /* BARIS LOGO & NAVIGASI */
 /* LOGO */
 .logo img {
   float: left;
   width: 50px;
   height: 50px;
-  margin-left: 0;
-  margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 /* NAVIGASI */
@@ -62,11 +68,13 @@
 
 
 /* BARIS CAROUSEL */
-
+.carousel {
+    width: 100%;
+}
 
 /* BARIS THUMBNAIL MEDIA OBJECT UKURAN 70x70 */
 .bbm1 {
-    margin: 15px 0;
+    margin: 10px 0;
 }
 .bbm2 {
     min-height: 200px;
@@ -75,11 +83,12 @@
 /* BARIS VIDEO TAMPILAN */
 .videotampilan {
     background-color: grey;
+    margin-bottom: 5px;
 }
 
 /* BARIS FOOTER */
 footer {
-    margin-top: 10px;
+    margin-top: 0;
     background-color: black;
 }
 .footer-top {
@@ -89,9 +98,14 @@ footer {
 #footeratas {
 }
 
+.container .footeratas1 {
+}
+
 .footerbatas {
     color: white;
     min-height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .page-header {
